@@ -1,1 +1,1 @@
-- DeFiSecurity Website: https://rdi.berkeley.edu/defisecurity
+- DeFi Attacks Website: https://rdi.berkeley.edu/defi-attacks

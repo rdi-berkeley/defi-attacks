@@ -10,45 +10,56 @@
     <link href="metaverse.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">DeFi Research @ <img src="img/rdi-sm.png" height="30"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="https://rdi.berkeley.edu">RDI Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://rdi.berkeley.edu/research">Research Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Metaverse Research
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item active" href="https://rdi.berkeley.edu/metadata">MetaData</a></li>
-                <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaguard">MetaGuard</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaverse">View All</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                DeFi Research
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://rdi.berkeley.edu/defisecurity">DeFiSecurity</a></li>
-<!--                <li><hr class="dropdown-divider"></li>-->
-<!--                <li><a class="dropdown-item" href="https://rdi.berkeley.edu/defi">View All</a></li>-->
-              </ul>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Research @ <img src="img/rdi-sm.png" height="30"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="https://rdi.berkeley.edu">RDI Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://rdi.berkeley.edu/research">Research Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="https://rdi.berkeley.edu/zkp">Zero Knowledge Proofs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Metaverse Research
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metadata">MetaData</a></li>
+              <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaguard">MetaGuard</a></li>
+              <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaverse-sok">Privacy SoK</a></li>
+              <li><a class="dropdown-item" href="https://rdi.berkeley.edu/vr-identification">Identification</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="https://rdi.berkeley.edu/metaverse">View All</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+               aria-expanded="false">
+              DeFi Research
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://rdi.berkeley.edu/defi-attacks">DeFi Attacks</a></li>
+              <li><a class="dropdown-item" href="https://rdi.berkeley.edu/blockchain-llm">Blockchain LLM</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="https://rdi.berkeley.edu/defi">View All</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+
     <div id="carousel" class="carousel slide" data-bs-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -104,7 +115,7 @@
           </div>
           <div class="col-lg-7">
             <h1 class="mt-0">&ldquo;SoK: Decentralized Finance (DeFi) Incidents&rdquo;</h1>
-            <p class="text-secondary">2022 &nbsp;|&nbsp; Liyi Zhou &middot; Xihan Xiong &middot; Jens Ernstberger &middot; Stefanos Chaliasos &middot; Zhipeng Wang &middot; Ye Wang &middot; Kaihua Qin &middot; Roger Wattenhofer &middot; Dawn Song &middot; Arthur Gervais &nbsp;|&nbsp; https://arxiv.org/abs/2208.13035</p>
+            <p class="text-secondary">2023 &nbsp|&nbsp; Liyi Zhou &middot; Xihan Xiong &middot; Jens Ernstberger &middot; Stefanos Chaliasos &middot; Zhipeng Wang &middot; Ye Wang &middot; Kaihua Qin &middot; Roger Wattenhofer &middot; Dawn Song &middot; Arthur Gervais &nbsp;|&nbsp; https://arxiv.org/abs/2208.13035</p>
             <p class="text-justify">We investigate 77 academic papers, 30 audit reports, and 181 real-world incidents. Our open data reveals several gaps between academia and the practitioners' community. For example, few academic papers address "price oracle attacks" and "permissonless interactions", while our data suggests that they are the two most frequent incident types (15% and 10.5% correspondingly). We also investigate potential defenses, and find that: (i) 103 (56%) of the attacks are not executed atomically, granting a rescue time frame for defenders; (ii) SoTA bytecode similarity analysis can at least detect 31 vulnerable/23 adversarial contracts; and (iii) 33 (15.3%) of the adversaries leak potentially identifiable information by interacting with centralized exchanges.</p>
             <p class="mb-0"><a class="btn btn-primary btn-lg" href="https://arxiv.org/pdf/2208.13035.pdf" target="_blank"><i class="fa fa-file-lines"></i>&nbsp; Read Paper</a> &nbsp;</p>
           </div>
